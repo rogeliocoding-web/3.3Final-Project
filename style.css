@@ -6,9 +6,20 @@ box-sizing: border-box;
 font-family: 'Roboto', sans-serif;
 }
 
-.nav__logo--title {
-    
+#landing {
+    padding: 0 32px;
 }
+
+.nav__logo {
+    display: flex;
+    align-items: center;
+} 
+
+.nav__logo--img {
+    height: 40px;
+    width: 40px;
+}
+
 .nav {
     display: flex;
     justify-content: space-between;
@@ -17,4 +28,62 @@ font-family: 'Roboto', sans-serif;
 .nav__row {
     display: flex;
     justify-content: space-between;
+    padding-bottom: 2px;
 }
+
+.nav__links{
+    display: flex;
+    align-items: center;
+
+}
+
+.container {
+    padding: 96px 0;
+}
+
+@media (max-width: 1280px) {
+.header__img--wrapper{
+   font-size: 16px;
+    }
+}
+
+.header__description--para {
+    margin: 32px 0;
+}
+
+.header__img--wrapper{
+    width: calc(100% - 40%);
+}
+
+.header__img {
+    max-width: 512px;
+}
+
+.nav__link {
+    margin: 0 24px;
+    font-size: 14px;
+    font-weight: 600px;
+    padding-top: 4px;
+    letter-spacing: 0.35px;
+    border-bottom: 2px solid;
+    position: relative;
+}
+
+
+
+.header__customers--title {
+    margin-top: 80px;
+    color: #a0aec0;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.header__customers {
+    width: 390px;
+    height: 27px;
+    margin-top: 16px 0px 0px;
+    opacity: 0.5;
+    padding-right: 64px;
+
+}
+
