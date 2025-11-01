@@ -7,9 +7,13 @@ font-family: 'Roboto', sans-serif;
 }
 
 #landing {
-    padding: 0 32px;
+    padding: 32px 12px;
 }
 
+.nav {
+    padding-top: 32px;
+    display: flex;
+}
 .nav__logo {
     display: flex;
     align-items: center;
@@ -27,12 +31,7 @@ font-family: 'Roboto', sans-serif;
     letter-spacing: 0.6px;
 }
 
-.nav {
-    
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
+
 .nav__row {
     display: flex;
     justify-content: space-between;
@@ -42,6 +41,7 @@ font-family: 'Roboto', sans-serif;
 .nav__links{
     display: flex;
     align-items: center;
+    justify-content: flex-end;
 
 }
 
@@ -55,13 +55,19 @@ font-family: 'Roboto', sans-serif;
     }
 }
 
+.header__description {
+    width: 40%;
+}
 .header__description--para {
     margin: 32px 0;
 }
 
-.header__img--wrapper{
+.header__img--wrapper {
     display: flex;
-    justify-content: flex-end;
+}
+
+.header__img--wrapper{
+    width: calc(100% - 40%);
 }
 
 .header__img {
