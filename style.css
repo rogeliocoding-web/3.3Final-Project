@@ -9,7 +9,7 @@ font-family: 'Roboto', sans-serif;
     color: purple;
 }
 #landing {
-    padding: 32px 12px;
+    padding: 0 32px;
 }
 
 .nav {
@@ -132,7 +132,7 @@ font-family: 'Roboto', sans-serif;
 
 }
 
-#features .row_narrow {
+.row_narrow {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -140,7 +140,7 @@ font-family: 'Roboto', sans-serif;
 }
 
 .row_narrow {
-    width: 100%;
+ width: 100%;
     max-width: 1024px;
     margin: 0 auto;
 }
@@ -172,5 +172,5 @@ font-family: 'Roboto', sans-serif;
     font-size: 18px;
     font-weight: 500;
     color: #7c8ba1;
-    line-height: ;
+    line-height: 1.625 ;
 }
